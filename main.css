@@ -6,7 +6,7 @@
 --headercolor:#fff;                 /*The color of the text in the header/title.*/
 --linktextcolor:var(--maintextcolor); /*This line means that the links will have the same color as the normal text in the main area of the window. Change if you want different colors.*/
 --backgroundImageUrl:url("resources/images/background.jpg");  /*The URL to the image you want to use as background.*/
---focusImageUrl:url("resources/images/wave.png");   /*The URL to the image you want to use for the foreground.*/
+--focusImageUrl:url("resources/images/goku.jpeg");   /*The URL to the image you want to use for the foreground.*/
 --backgroundBlur:blur(2px);                           /*Change how blurry the background is. Higher number is more blurry.*/
 --backgroundBorder:#000;                           /*If you have a blurry background, set the color of the border around the image to fit it here.*/
 --letterSpace:2px;                                    /*Define how far letters are spaced from each other in pixels.*/
@@ -29,6 +29,22 @@
 --vignetteoverlay-size:50%;           /*How big the "radius" of the vignette should be. It is minimal at 0% and as big as the screen (and thus invisible) at 100%. Accepts % values. */
 }
 /*Everything below here (maybe except the font) is normal css and far more likely to break things if you edit it.*/
+
+
+
+
+
+.textin{
+	padding: 25px;
+}
+
+
+.textin a{
+
+	color: blue;
+
+}
+
 
 .bg-image {
     background-image: var(--backgroundImageUrl);
